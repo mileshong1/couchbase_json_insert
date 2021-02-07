@@ -7,4 +7,10 @@
 ## Description
 Reads in an array of JSON objects and inserts into Couchbase. The array of JSON objects are parsed into a dictionary of key value pairs before being inserted using collection.upsert_multi().<br\>
 
-Did not do multi-threading because when inserting into the same bucket, each thread will have to wait for the others. There is nothing gained from doing multi-threaded compared to single-threaded. (source: https://docs.couchbase.com/sdk-api/couchbase-python-client-3.0.0/api/threads.html#multiple-threads)
+## How to Use:
+First, replace the "/path/to/jsonfile" in the main() function to the path to your file. Currently, it is under the assumption of a fixed schema (in this case, on the travel-sample data). Change the way the key is created in the create_kv_dict() function as necessary to your schema. <br\>
+
+Then, run:
+```
+python3 json_insert_singlethread.py
+```
