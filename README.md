@@ -14,3 +14,4 @@ Then, run:
 ```
 python3 json_insert_singlethread.py
 ```
+Go back to the Couchbase server and verify that your data has been inserted into the correct bucket.
