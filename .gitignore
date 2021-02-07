@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#DS Store
+.DS_Store
+
+#.vscode
+.vscode
+
+#multithread
+json_insert_multithread.py
+
+#json file
+*.json
