@@ -1,4 +1,4 @@
-# couchbase_json_insert
+# Couchbase JSON Insert Tool
 
 ## Preqrequisites
 -Install Couchbase Server<br/>
