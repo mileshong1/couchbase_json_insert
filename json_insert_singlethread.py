@@ -50,7 +50,7 @@ def insert_batch(collection, batch):
 
 def main():
     #open JSON file
-    with open('./output.json') as f:
+    with open('./travel-sample.json') as f:
         data = json.load(f)
 
     cb = connect()
